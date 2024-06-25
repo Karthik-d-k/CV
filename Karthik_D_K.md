@@ -8,8 +8,8 @@ header:
     link: https://github.com/Karthik-d-k
   - text: <span class="iconify" data-icon="tabler:brand-linkedin"></span> karthik-d-k
     link: https://www.linkedin.com/in/karthik-d-k-319853166/
-  - text: <span class="iconify" data-icon="charm:person"></span> fastblog
-    link: https://karthik-d-k.github.io/fastblog/
+  - text: <span class="iconify" data-icon="charm:person"></span> 0x646b
+    link: https://karthik-d-k.github.io/
   - text: <span class="iconify" data-icon="ic:outline-location-on"></span> 12/431, Doddaballapur, Bengaluru Rural - 561203
     link: https://maps.app.goo.gl/JkBfG4sNpjDEPEtc6/
     newLine: true
@@ -23,39 +23,34 @@ header:
 
 ----
 
-**MLLib DecisionTree Inference**
--	Inference Algorithm for DecisionTree for creation of interface to an embedded device (ECU) 
--	Flat Buffers are used for defining and parameterizing complete models via Calibrations.
-
-\\[10px]
-
 **BuRner Assisted CatHeater (BRAC)**
 
--	BRAC is developed as a standalone PowerTrain ECU Software and as a slave software in combination with Conventional master ICE engine for reduction in emissions towards achieving EU7 norms.
--	CAN Communication between ECU <=> BRAC were implemented to achieve seamless working of both ECUs.
+-	BRAC is developed as a standalone PowerTrain slave ECU for external Catalyst Heating towards achieving EU7 norms.
+-	Implemented CAN communication between ECU and BRAC to achieve seamless operation of both ECUs.
 
 \\[10px]
 
 **Dedicated Internal Combustion Engine (DICE)**
--	This project is dedicated towards investigations regarding emission reduction in achieving EU7 norms using Hybrid engines.
--	Complete Functional feature implementation for enabling NOx\NH3 sensor integration into Gasoline engines
+-	Contributed to a project focused on emission reduction to achieve EU7 norms using hybrid engines.
+-	Implemented complete functional features for integrating NOx/NH3 sensors into gasoline engines.
 
 \\[10px]
 
-**Exhaust Management for Porsche**
--	Implemented a complete component for reading temperature sensors via CAN, diagnosis of those sensors for EU7 norms.
--	Implemented statistical feature to test for temperature spread across Catalyst w.r.t. better emission control.
+**Exhaust Management**
+-	Developed a comprehensive component for reading temperature sensors via CAN and implementing sensor diagnostics for EU7 compliance.
+-	Implemented statistical features to analyze temperature spread across catalysts for improved emission control.
 
 \\[10px]
 
-**Adaptive Learning of Torque Limitation**
--	Robust Learning model of torque limits implemented as a weight-based rank model which computes ranks for each torque Limitation, with following process.
--	System Impact / Benefits, Advantages such as Warranty claims, Sensor/Component diagnosis and Improving Engine life.
+**MLLib DecisionTree Inference**
+-	Developed an inference algorithm for DecisionTree in C for PowerTrain ECU.
+-	Utilized Flat Buffers for defining and parameterizing the model via calibrations.
 
+\\[10px]
 
 ## Skills
 
-**Programming Languages:** C, Rust, Python and Julia
+**Programming Languages:** C, Rust, Python
 
 **Tools and Frameworks:** Git, PyTorch/fastai, ASCET, GNU Make, Linux
 
@@ -116,7 +111,7 @@ SSLC
 •	Hackathon Winner
   ~ AI/ML
 
-•	Participated in Chess championship twice
+•	Participated twice in Chess championship
   ~  State Level
 
 
@@ -127,50 +122,53 @@ SSLC
 **robot-hat-rs**<a href="https://github.com/Karthik-d-k/robot-hat-rs">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- The unofficial Rust implementation of robot-hat Python Library.
-- Library can be found on [crates.io](https://crates.io/crates/robot-hat-rs) and has around **100 downloads** from the commmunity.
+- Developed the unofficial Rust implementation of the robot-hat Python Library.
+- Published library on [crates.io](https://crates.io/crates/robot-hat-rs) garnering approximately **1k** downloads from the community.
+
+\\[10px]
+
+**ixv**<a href="https://github.com/Karthik-d-k/ixv">
+  <span class="iconify" data-icon="pajamas:github"></span>
+</a>
+- Developed a CLI application in Rust for verifying intel hex file(s).
+- Published library on [crates.io](https://crates.io/crates/ixv) garnering approximately **1k** downloads from the community.
 
 \\[10px]
 
 **picars**<a href="https://github.com/Karthik-d-k/picars">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Autonomous Vehicle using Raspberry Pi and PiCar-X kit created using Rust and Python.
-- *Key Learnings:* Developed Rust bindings and interfaced with them through Python to optimize execution speed.
-
-\\[10px]
-
-**Blog**<a href="https://karthik-d-k.github.io/fastblog/">
-  <span class="iconify" data-icon="pajamas:github"></span>
-</a>
-- Blogging about interesting bits regarding Software Engineering and Deep Learning.
+- Created an autonomous vehicle system using Raspberry Pi and PiCar-X kit, leveraging Rust and Python.
+- Developed Rust bindings and interfaced with Python to optimize execution speed.
 
 \\[10px]
 
 **rprs**<a href="https://github.com/Karthik-d-k/rprs">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- A CLI application for replacing file(s) written in Rust.
+- Developed a CLI application in Rust for file replacement operations.
 
 \\[10px]
 
-**c-pro**<a href="https://github.com/Karthik-d-k/c-pro">
+**Blog**<a href="https://karthik-d-k.github.io/">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Implementing solutions for the exercises in the K&R C Programming book.
+- Blogging about interesting bits regarding Software Engineering and Deep Learning.
+
+\\[10px]
 
 \\[10px]
 
 **Open-Source Contributions**<a href="https://github.com/pulls?q=is%3Apr+archived%3Afalse+is%3Aclosed+author%3AKarthik-d-k">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Started contributing on GitHub recently, notable mentions being        contributed to fastai and FluxML Deep learning libraries
+- Actively contributing to GitHub projects, including notable contributions to fastai and FluxML Deep Learning libraries.
 
 \\[10px]
 
 ### Graduation project
 
 **Closed loop control of Anesthesia Administration**
--	Project was designed to automate closed loop control of General Anesthesia using PID controller
-- It is used for regulating the depth of Hypnosis using propofol administration and Bi-Spectral Index (BIS) value as a controlled variable.
-- Developed/Programmed using MATLAB/Simulink
+- Designed an automated closed-loop control system for General Anesthesia using a PID controller.
+- Developed a system to regulate the depth of hypnosis using propofol administration and Bi-Spectral Index (BIS) as a controlled variable.
+- Implemented the project using MATLAB/Simulink.
