@@ -23,36 +23,38 @@ header:
 
 ----
 
-**BuRner Assisted CatHeater (BRAC)**
-
--	BRAC is developed as a standalone PowerTrain slave ECU for external Catalyst Heating towards achieving EU7 norms.
--	Implemented CAN communication between ECU and BRAC to achieve seamless operation of both ECUs.
-
-\\[10px]
-
-**Dedicated Internal Combustion Engine (DICE)**
--	Contributed to a project focused on emission reduction to achieve EU7 norms using hybrid engines.
--	Implemented complete functional features for integrating NOx/NH3 sensors into gasoline engines.
-
-\\[10px]
-
-**Exhaust Management**
--	Developed a comprehensive component for reading temperature sensors via CAN and implementing sensor diagnostics for EU7 compliance.
--	Implemented statistical features to analyze temperature spread across catalysts for improved emission control.
+**Predictive Emission Modelling for Motorcycles**
+- Conceptualized and implemented machine learning models to predict the emissions of nitrogen oxides (NOx), hydrocarbons (HC), and carbon monoxide (CO) in motorcycles, addressing critical challenges in vehicle emissions.
+- Achieved superior R² scores and secured the runner-up position in a Bosch India AI hackathon, demonstrating predictive accuracy and expertise in emission data analytics.
 
 \\[10px]
 
 **MLLib DecisionTree Inference**
 -	Developed an inference algorithm for DecisionTree in C for PowerTrain ECU.
--	Utilized Flat Buffers for defining and parameterizing the model via calibrations.
+-	Utilized Flat Buffers for defining and parameterizing the model through calibrations.
 
 \\[10px]
 
+**E-Wastegate System Configuration**
+
+-	Configured and integrated an electronic wastegate (e-wastegate) system into the powertrain ECU, enabling accurate control of turbocharger performance.
+-	Set up a PWM pin for e-wastegate actuation and an ADC pin to process the feedback signal from the e-wastegate position sensor.
+
+\\[10px]
+
+
+**Advanced Exhaust Temperature Management**
+- Developed a comprehensive component for reading temperature sensors via CAN and implementing sensor diagnostics to comply with EU7 standards.
+- Implemented statistical analysis to monitor temperature distribution across catalyst, improving emission control efficiency.
+
+\\[10px]
+
+
 ## Skills
 
-**Programming Languages:** C, Rust, Python
+**Programming Languages:** C, Python, Rust
 
-**Tools and Frameworks:** Git, PyTorch/fastai, ASCET, GNU Make, Linux
+**Tools and Frameworks:** Git, PyTorch, Linux, ASCET
 
 **Languages:** Kannada, English, Telugu
 
@@ -102,10 +104,10 @@ SSLC
 •	Bronze Award
   ~ Group Manager
 
-•	Shout out
+•	Shout Out
   ~ Manager
 
-•	Extra miler
+•	Extra Miler
   ~ Manager
 
 •	Hackathon Winner
@@ -114,28 +116,48 @@ SSLC
 •	Participated twice in Chess championship
   ~  State Level
 
+• Crowdsourcing Champ
+  ~ Crowdsourcing Head
+
+
+## Blogging
+
+- Documenting my knowledge with programming, software engineering and motorcycles to create a knowledge repository for future reference, aiding both emerging LLMs and my personal growth. <a href="https://karthik-d-k.github.io/">
+  <span class="iconify" data-icon="pajamas:github"></span>
+</a>
+
+\\[10px]
+
+## Open-Source Contributions
+
+- Actively contributing to GitHub projects, including notable contributions to fastai and FluxML Deep Learning libraries. <a href="https://github.com/pulls?q=is%3Apr+archived%3Afalse+is%3Aclosed+author%3AKarthik-d-k">
+  <span class="iconify" data-icon="pajamas:github"></span>
+</a>
+
+\\[10px]
 
 ## Projects
 
-### Open Source projects
+### Open Source Projects
 
-**robot-hat-rs**<a href="https://github.com/Karthik-d-k/robot-hat-rs">
+**ixv** <a href="https://github.com/Karthik-d-k/ixv">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Developed the unofficial Rust implementation of the robot-hat Python Library.
-- Published library on [crates.io](https://crates.io/crates/robot-hat-rs) garnering approximately **1k** downloads from the community.
+- Developed a CLI application in Rust for verifying Intel HEX file(s).
+- Published the binary on [crates.io](https://crates.io/crates/ixv),  receiving thousands of downloads from the community.
 
 \\[10px]
 
-**ixv**<a href="https://github.com/Karthik-d-k/ixv">
+**robot-hat-rs** <a href="https://github.com/Karthik-d-k/robot-hat-rs">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Developed a CLI application in Rust for verifying intel hex file(s).
-- Published library on [crates.io](https://crates.io/crates/ixv) garnering approximately **1k** downloads from the community.
+- Developing the unofficial Rust implementation of the robot-hat Python library.
+- Published the library on [crates.io](https://crates.io/crates/robot-hat-rs), receiving thousands of downloads from the community.
 
 \\[10px]
 
-**picars**<a href="https://github.com/Karthik-d-k/picars">
+
+**picars** <a href="https://github.com/Karthik-d-k/picars">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
 - Created an autonomous vehicle system using Raspberry Pi and PiCar-X kit, leveraging Rust and Python.
@@ -143,32 +165,23 @@ SSLC
 
 \\[10px]
 
-**rprs**<a href="https://github.com/Karthik-d-k/rprs">
+**rprs** <a href="https://github.com/Karthik-d-k/rprs">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Developed a CLI application in Rust for file replacement operations.
+- Developed a CLI application in Rust for replacing file(s).
 
 \\[10px]
 
-**Blog**<a href="https://karthik-d-k.github.io/">
+**GeekyMicky** <a href="https://github.com/Karthik-d-k/GeekyMicky">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Blogging about interesting bits regarding Software Engineering and Deep Learning.
+- Tackled the Micro-Mouse Maze Challenge using Arduino Uno and C programming.
 
 \\[10px]
 
-\\[10px]
+### Graduation Project
 
-**Open-Source Contributions**<a href="https://github.com/pulls?q=is%3Apr+archived%3Afalse+is%3Aclosed+author%3AKarthik-d-k">
-  <span class="iconify" data-icon="pajamas:github"></span>
-</a>
-- Actively contributing to GitHub projects, including notable contributions to fastai and FluxML Deep Learning libraries.
-
-\\[10px]
-
-### Graduation project
-
-**Closed loop control of Anesthesia Administration**
+**Closed-Loop Control of Anesthesia Administration**
 - Designed an automated closed-loop control system for General Anesthesia using a PID controller.
 - Developed a system to regulate the depth of hypnosis using propofol administration and Bi-Spectral Index (BIS) as a controlled variable.
 - Implemented the project using MATLAB/Simulink.
