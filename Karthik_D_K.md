@@ -23,6 +23,13 @@ header:
 
 ----
 
+**Hubris OS RISC-V Port**
+- Currently porting the Hubris operating system to RISC-V architecture.
+- Implemented kernel support, memory protection units (PMP), and task isolation mechanisms specifically for RISC-V cores, enabling secure multi-tasking in resource-constrained environments.
+- Overcame critical hardware-specific challenges including RP2350 errata workarounds and Physical Memory Protection (PMP) configuration for secure task execution.
+
+\\[10px]
+
 **Predictive Emission Modelling for Motorcycles**
 - Conceptualized and implemented machine learning models to predict the emissions of nitrogen oxides (NOx), hydrocarbons (HC), and carbon monoxide (CO) in motorcycles, addressing critical challenges in vehicle emissions.
 - Achieved superior R² scores and secured the runner-up position in a Bosch India AI hackathon, demonstrating predictive accuracy and expertise in emission data analytics.
@@ -82,14 +89,6 @@ B.E in Electronics and Communication
 
 PUC
   ~ 2015
-
-\\[10px]
-
-**MABL High School**
-  ~ **95.2%**
-
-SSLC
-  ~ 2013
 
 \newpage
 
@@ -156,6 +155,13 @@ SSLC
 
 \\[10px]
 
+**exhubris** <a href="https://github.com/Karthik-d-k/exhubris-riscv-hazard3">
+  <span class="iconify" data-icon="pajamas:github"></span>
+</a>
+- Built blinky demo application on RP Pico 2W Board.
+- Demo works successfully on both ARM core [Cortex-M33](https://github.com/Karthik-d-k/exhubris-demo-rp235x) and RISC-V core [Hazard3](https://github.com/Karthik-d-k/exhubris-riscv-hazard3/tree/rp235x-hazard3).
+
+\\[10px]
 
 **picars** <a href="https://github.com/Karthik-d-k/picars">
   <span class="iconify" data-icon="pajamas:github"></span>
