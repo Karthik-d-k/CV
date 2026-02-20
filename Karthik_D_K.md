@@ -15,6 +15,14 @@ header:
     newLine: true
 ---
 
+## Summary
+
+Firmware Developer building RISC-V software ecosystems for automotive and IoT at Bosch's TrusteD-V innovation team.
+
+6+ years of embedded systems experience spanning kernel development, RTOS evaluation, and automotive ECU firmware. Expertise in Rust and C for bare-metal and safety-critical systems on ARM Cortex-M and RISC-V architectures.
+
+\\[10px]
+
 ## Experience
 
 *Senior Software Engineer*
@@ -23,16 +31,14 @@ header:
 
 ----
 
-**Hubris OS RISC-V Port**
-- Currently porting the Hubris operating system to RISC-V architecture.
-- Implemented kernel support, memory protection units (PMP), and task isolation mechanisms specifically for RISC-V cores, enabling secure multi-tasking in resource-constrained environments.
-- Overcame critical hardware-specific challenges including RP2350 errata workarounds and Physical Memory Protection (PMP) configuration for secure task execution.
-
 \\[10px]
 
-**Predictive Emission Modelling for Motorcycles**
-- Conceptualized and implemented machine learning models to predict the emissions of nitrogen oxides (NOx), hydrocarbons (HC), and carbon monoxide (CO) in motorcycles, addressing critical challenges in vehicle emissions.
-- Achieved superior R² scores and secured the runner-up position in a Bosch India AI hackathon, demonstrating predictive accuracy and expertise in emission data analytics.
+**TrusteD-V: RISC-V Rust Software Ecosystem**
+- Core developer on Bosch's TrusteD-V innovation team, building a secure RISC-V software ecosystem targeting automotive and IoT applications.
+- Ported Hubris OS to RISC-V architecture, implementing kernel primitives, trap/exception handlers, and PMP-based memory isolation for Hazard3 RISC-V core on Raspberry Pi Pico 2 board.
+- Overcame hardware-specific challenges including RP2350 errata workarounds and Physical Memory Protection configuration for secure multi-tasking.
+- Debugged kernel bring-up issues using Segger J-Link with OpenOCD/GDB on Mindgrove Secure IoT development board.
+- Work featured at RISC-V Summit 2025: "Unlocking the Potential of RISC-V With TrusteD-V"
 
 \\[10px]
 
@@ -42,29 +48,35 @@ header:
 
 \\[10px]
 
-**E-Wastegate System Configuration**
-
--	Configured and integrated an electronic wastegate (e-wastegate) system into the powertrain ECU, enabling accurate control of turbocharger performance.
--	Set up a PWM pin for e-wastegate actuation and an ADC pin to process the feedback signal from the e-wastegate position sensor.
-
-\\[10px]
-
-
 **Advanced Exhaust Temperature Management**
 - Developed a comprehensive component for reading temperature sensors via CAN and implementing sensor diagnostics to comply with EU7 standards.
 - Implemented statistical analysis to monitor temperature distribution across catalyst, improving emission control efficiency.
 
 \\[10px]
 
+**Predictive Emission Modelling for Motorcycles**
+- Conceptualized and implemented machine learning models to predict the emissions of nitrogen oxides (NOx), hydrocarbons (HC), and carbon monoxide (CO) in motorcycles, addressing critical challenges in vehicle emissions.
+- Achieved superior R² scores and secured the runner-up position in a Bosch India AI hackathon, demonstrating predictive accuracy and expertise in emission data analytics.
+
+\\[10px]
 
 ## Skills
 
-**Programming Languages:** C, Python, Rust
+**Programming:** C, Rust, Python
 
-**Tools and Frameworks:** Git, PyTorch, Linux, ASCET
+\\[10px]
 
-**Languages:** Kannada, English, Telugu
+**RTOS/Bare-Metal:** Hubris OS, FreeRTOS, Zephyr, bare-metal programming
 
+\\[10px]
+
+**Debug Tools:** Segger J-Link, RP Debug Probe, OpenOCD, GDB, JTAG/SWD debugging
+
+\\[10px]
+
+**Developer Tools and Frameworks:** Cargo, Make, Git, Just, GCC, ASCET, PyTorch, Linux
+
+\\[10px]
 
 ## Certifications
 **Machine Learning**
@@ -73,6 +85,21 @@ header:
 *Coursera*
   ~ 2020
 
+\\[10px]
+
+## Achievements
+
+- **RISC-V Summit 2025:** TrusteD-V project contributor (featured talk). <a href="https://youtu.be/O73rm9p6fTY?si=o1rWW-0pa3EEiumr">
+  <span class="iconify" data-icon="tabler:brand-youtube-filled"></span>
+</a>
+- **Bosch Recognition:** Best Developer Award, Crowdsourcing Champ, AI Hackathon Winner. <a href="https://www.linkedin.com/in/karthik-d-k-319853166/details/honors/">
+  <span class="iconify" data-icon="tabler:brand-linkedin-filled"></span>
+</a>
+- **Chess**: State-Level Championship participant.
+
+\\[10px]
+
+\newpage
 
 ## Education
 
@@ -90,33 +117,8 @@ B.E in Electronics and Communication
 PUC
   ~ 2015
 
-\newpage
+\\[10px]
 
-
-## Achievements
-
-[*Awards and Honors*](https://www.linkedin.com/in/karthik-d-k-319853166/details/honors/)
-
-•	One Time Award
-  ~ Department Head
-
-•	Bronze Award
-  ~ Group Manager
-
-•	Shout Out
-  ~ Manager
-
-•	Extra Miler
-  ~ Manager
-
-•	Hackathon Winner
-  ~ AI/ML
-
-•	Participated twice in Chess championship
-  ~  State Level
-
-• Crowdsourcing Champ
-  ~ Crowdsourcing Head
 
 
 ## Blogging
@@ -129,7 +131,7 @@ PUC
 
 ## Open-Source Contributions
 
-- Actively contributing to GitHub projects, including notable contributions to fastai and FluxML Deep Learning libraries. <a href="https://github.com/pulls?q=is%3Apr+archived%3Afalse+is%3Aclosed+author%3AKarthik-d-k">
+- Actively contributing to GitHub projects, notable contributions to fastai and FluxML Deep Learning libraries. <a href="https://github.com/pulls?q=is%3Apr+archived%3Afalse+is%3Aclosed+author%3AKarthik-d-k">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
 
@@ -139,27 +141,29 @@ PUC
 
 ### Open Source Projects
 
-**ixv** <a href="https://github.com/Karthik-d-k/ixv">
+**exhubris** <a href="https://github.com/Karthik-d-k/exhubris-riscv-hazard3">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Developed a CLI application in Rust for verifying Intel HEX file(s).
-- Published the binary on [crates.io](https://crates.io/crates/ixv),  receiving thousands of downloads from the community.
+- Configured linker scripts and startup code for dual-architecture Hubris OS demo on RP Pico 2W.
+- Handled architecture-specific boot sequences and vector tables for both ARM [Cortex-M33](https://github.com/Karthik-d-k/exhubris-demo-rp235x) and RISC-V [Hazard3](https://github.com/Karthik-d-k/exhubris-riscv-hazard3/tree/rp235x-hazard3) cores.
+- Validated hardware bring-up using GDB over SWD with RP Debug Probe.
 
 \\[10px]
 
 **robot-hat-rs** <a href="https://github.com/Karthik-d-k/robot-hat-rs">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Developing the unofficial Rust implementation of the robot-hat Python library.
-- Published the library on [crates.io](https://crates.io/crates/robot-hat-rs), receiving thousands of downloads from the community.
+- Developed no_std Rust drivers for I2C, PWM, and ADC peripherals targeting the Robot HAT robotics platform.
+- Implemented hardware abstraction layer for motor control, servo actuation, and analog sensor reading.
+- Published on [crates.io](https://crates.io/crates/robot-hat-rs), receiving thousands of downloads from the community.
 
 \\[10px]
 
-**exhubris** <a href="https://github.com/Karthik-d-k/exhubris-riscv-hazard3">
+**ixv** <a href="https://github.com/Karthik-d-k/ixv">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Built blinky demo application on RP Pico 2W Board.
-- Demo works successfully on both ARM core [Cortex-M33](https://github.com/Karthik-d-k/exhubris-demo-rp235x) and RISC-V core [Hazard3](https://github.com/Karthik-d-k/exhubris-riscv-hazard3/tree/rp235x-hazard3).
+- Developed a CLI application in Rust for verifying Intel HEX file(s).
+- Published the binary on [crates.io](https://crates.io/crates/ixv),  receiving thousands of downloads from the community.
 
 \\[10px]
 
@@ -191,3 +195,13 @@ PUC
 - Designed an automated closed-loop control system for General Anesthesia using a PID controller.
 - Developed a system to regulate the depth of hypnosis using propofol administration and Bi-Spectral Index (BIS) as a controlled variable.
 - Implemented the project using MATLAB/Simulink.
+
+\\[10px]
+
+### Languages
+
+- English
+- Kannada
+- Telugu
+
+\\[10px]
