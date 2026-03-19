@@ -137,6 +137,8 @@ PUC
 
 - Active open-source contributor with notable pull requests merged into fastai and FluxML Deep Learning libraries.
 
+\\[10px]
+
 **robot-hat-rs** <a href="https://github.com/Karthik-d-k/robot-hat-rs">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
