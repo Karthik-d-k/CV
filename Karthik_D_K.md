@@ -17,15 +17,13 @@ header:
 
 ## Summary
 
-Firmware Developer building RISC-V software ecosystems for automotive and IoT at Bosch's TrusteD-V innovation team.
-
-6+ years of embedded systems experience spanning kernel development, RTOS evaluation, and automotive ECU firmware. Expertise in Rust and C for bare-metal and safety-critical systems on ARM Cortex-M and RISC-V architectures.
+Firmware Developer building the RISC-V software ecosystem for automotive and IoT at Bosch's TrusteD-V Innovation Team. 6+ years of embedded systems experience spanning kernel development, RTOS porting, and automotive ECU application software. Expertise in Rust, C, and Python for bare-metal and safety-critical systems. RISC-V Summit 2025 featured contributor.
 
 \\[10px]
 
 ## Experience
 
-*Senior Software Engineer*
+*Firmware Architect*
   ~ *Bosch Global Software Technologies*
   ~ *August 2019 - Present*
 
@@ -33,36 +31,42 @@ Firmware Developer building RISC-V software ecosystems for automotive and IoT at
 
 \\[10px]
 
-**TrusteD-V: RISC-V Rust Software Ecosystem**
-- Core developer on Bosch's TrusteD-V innovation team, building a secure RISC-V software ecosystem targeting automotive and IoT applications.
-- Ported Hubris OS to RISC-V architecture, implementing kernel primitives, trap/exception handlers, and PMP-based memory isolation for Hazard3 RISC-V core on Raspberry Pi Pico 2 board.
-- Overcame hardware-specific challenges including RP2350 errata workarounds and Physical Memory Protection configuration for secure multi-tasking.
-- Debugged kernel bring-up issues using Segger J-Link with OpenOCD/GDB on Mindgrove Secure IoT development board.
-- Work featured at RISC-V Summit 2025: "Unlocking the Potential of RISC-V With TrusteD-V"
+**Hubris OS Port to RISC-V** <a href="https://github.com/Karthik-d-k/exhubris-riscv-hazard3">
+  <span class="iconify" data-icon="pajamas:github"></span>
+</a>
+- Ported Hubris OS to RISC-V, implementing kernel primitives, trap/exception handlers, and PMP-based memory isolation for Hazard3 core on Raspberry Pi Pico 2.
+- Configured linker scripts and startup code for dual-architecture support across ARM [Cortex-M33](https://github.com/Karthik-d-k/exhubris-demo-rp235x) and RISC-V [Hazard3](https://github.com/Karthik-d-k/exhubris-riscv-hazard3/tree/rp235x-hazard3) cores.
+- Overcame RP2350 errata and PMP configuration challenges; validated bring-up using OpenOCD and GDB over SWD with Raspberry Pi Debug Probe.
+
+
+**TrusteD-V RTOS (In-house)**
+- Developed proof-of-concept RTOS port for Mindgrove Secure IoT development board with working QEMU emulation support.
+- Debugged kernel bring-up issues using Segger J-Link with OpenOCD and GDB.
+
+\\[10px]
+
+**Rust SDK for CDAC VEGA Processor**
+- Created the first Rust bare-metal ecosystem for the CDAC VEGA ARIES v3 board (THEJAS32 RISC-V SoC).
+- Built a Python-based SVD generator by reverse-engineering register maps and drivers from the VEGA C SDK.
+- Produced a reproducible PAC generation pipeline with type-safe access for 15+ peripherals (UART, SPI, I2C, Timer, GPIO, ADC, PWM, PLIC) and validated with bare-metal working examples.
 
 \\[10px]
 
 **MLLib DecisionTree Inference**
--	Developed an inference algorithm for DecisionTree in C for PowerTrain ECU.
--	Utilized Flat Buffers for defining and parameterizing the model through calibrations.
+- Developed a lightweight DecisionTree inference engine in C for deployment on a PowerTrain ECU with constrained resources.
+- Utilized FlatBuffers for model serialization, enabling parameterization through calibration tooling.
 
 \\[10px]
 
-**Advanced Exhaust Temperature Management**
+**Advanced Exhaust Temperature Management (Onsite — Germany, 3 months)**
 - Developed a comprehensive component for reading temperature sensors via CAN and implementing sensor diagnostics to comply with EU7 standards.
 - Implemented statistical analysis to monitor temperature distribution across catalyst, improving emission control efficiency.
 
 \\[10px]
 
-**Predictive Emission Modelling for Motorcycles**
-- Conceptualized and implemented machine learning models to predict the emissions of nitrogen oxides (NOx), hydrocarbons (HC), and carbon monoxide (CO) in motorcycles, addressing critical challenges in vehicle emissions.
-- Achieved superior R² scores and secured the runner-up position in a Bosch India AI hackathon, demonstrating predictive accuracy and expertise in emission data analytics.
-
-\\[10px]
-
 ## Skills
 
-**Programming:** C, Rust, Python
+**Programming:** Rust, C, Python
 
 \\[10px]
 
@@ -70,11 +74,11 @@ Firmware Developer building RISC-V software ecosystems for automotive and IoT at
 
 \\[10px]
 
-**Debug Tools:** Segger J-Link, RP Debug Probe, OpenOCD, GDB, JTAG/SWD debugging
+**Debug Tools:** Segger J-Link, RP Debug Probe, OpenOCD, GDB, minicom
 
 \\[10px]
 
-**Developer Tools and Frameworks:** Cargo, Make, Git, Just, GCC, ASCET, PyTorch, Linux
+**Development Tools and Frameworks:** WSL, Git, PyTorch, Cargo, Make, ASCET
 
 \\[10px]
 
@@ -99,11 +103,9 @@ Firmware Developer building RISC-V software ecosystems for automotive and IoT at
 
 \\[10px]
 
-\newpage
-
 ## Education
 
-**University Vishweshwaraya College of Engineering**
+**University Vishweshwaraya College of Engineering, Bengaluru**
   ~ **75.2%**
 
 B.E in Electronics and Communication
@@ -111,15 +113,13 @@ B.E in Electronics and Communication
 
 \\[10px]
 
-**Devaraja URS PU College**
+**Devaraja URS PU College, Doddaballapur**
   ~ **94.5%**
 
 PUC
   ~ 2015
 
 \\[10px]
-
-
 
 ## Blogging
 
@@ -129,41 +129,27 @@ PUC
 
 \\[10px]
 
-## Open-Source Contributions
+## Open Source Projects
 
-- Actively contributing to GitHub projects, notable contributions to fastai and FluxML Deep Learning libraries. <a href="https://github.com/pulls?q=is%3Apr+archived%3Afalse+is%3Aclosed+author%3AKarthik-d-k">
+**Contributions** <a href="https://github.com/pulls?q=is%3Apr+archived%3Afalse+is%3Aclosed+author%3AKarthik-d-k">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
 
-\\[10px]
-
-## Projects
-
-### Open Source Projects
-
-**exhubris** <a href="https://github.com/Karthik-d-k/exhubris-riscv-hazard3">
-  <span class="iconify" data-icon="pajamas:github"></span>
-</a>
-- Configured linker scripts and startup code for dual-architecture Hubris OS demo on RP Pico 2W.
-- Handled architecture-specific boot sequences and vector tables for both ARM [Cortex-M33](https://github.com/Karthik-d-k/exhubris-demo-rp235x) and RISC-V [Hazard3](https://github.com/Karthik-d-k/exhubris-riscv-hazard3/tree/rp235x-hazard3) cores.
-- Validated hardware bring-up using GDB over SWD with RP Debug Probe.
-
-\\[10px]
+- Active open-source contributor with notable pull requests merged into fastai and FluxML Deep Learning libraries.
 
 **robot-hat-rs** <a href="https://github.com/Karthik-d-k/robot-hat-rs">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
 - Developed no_std Rust drivers for I2C, PWM, and ADC peripherals targeting the Robot HAT robotics platform.
 - Implemented hardware abstraction layer for motor control, servo actuation, and analog sensor reading.
-- Published on [crates.io](https://crates.io/crates/robot-hat-rs), receiving thousands of downloads from the community.
+- Published on [crates.io](https://crates.io/crates/robot-hat-rs), receiving 4,000+ downloads from the community.
 
 \\[10px]
 
 **ixv** <a href="https://github.com/Karthik-d-k/ixv">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Developed a CLI application in Rust for verifying Intel HEX file(s).
-- Published the binary on [crates.io](https://crates.io/crates/ixv),  receiving thousands of downloads from the community.
+- Developed a Rust CLI for verifying Intel HEX files. Published on [crates.io](https://crates.io/crates/ixv) with 4,000+ downloads.
 
 \\[10px]
 
@@ -175,13 +161,6 @@ PUC
 
 \\[10px]
 
-**rprs** <a href="https://github.com/Karthik-d-k/rprs">
-  <span class="iconify" data-icon="pajamas:github"></span>
-</a>
-- Developed a CLI application in Rust for replacing file(s).
-
-\\[10px]
-
 **GeekyMicky** <a href="https://github.com/Karthik-d-k/GeekyMicky">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
@@ -189,19 +168,8 @@ PUC
 
 \\[10px]
 
-### Graduation Project
+## Languages
 
-**Closed-Loop Control of Anesthesia Administration**
-- Designed an automated closed-loop control system for General Anesthesia using a PID controller.
-- Developed a system to regulate the depth of hypnosis using propofol administration and Bi-Spectral Index (BIS) as a controlled variable.
-- Implemented the project using MATLAB/Simulink.
-
-\\[10px]
-
-### Languages
-
-- English
-- Kannada
-- Telugu
+- English, Kannada, Telugu
 
 \\[10px]
