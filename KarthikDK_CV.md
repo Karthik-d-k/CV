@@ -2,8 +2,8 @@
 name: Karthik D K
 header:
   - text: <span class="iconify" data-icon="tabler:phone"></span> (+91) 9108567200
-  - text: <span class="iconify" data-icon="tabler:mail"></span> karthikdk1998@gmail.com
-    link: mailto:karthikdk1998@gmail.com
+  - text: <span class="iconify" data-icon="tabler:mail"></span> karthikdkwork@gmail.com
+    link: mailto:karthikdkwork@gmail.com
   - text: <span class="iconify" data-icon="tabler:brand-github"></span> Karthik-d-k
     link: https://github.com/Karthik-d-k
   - text: <span class="iconify" data-icon="tabler:brand-linkedin"></span> karthik-d-k
