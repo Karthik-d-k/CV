@@ -15,11 +15,13 @@ header:
     newLine: true
 ---
 
+\\[20px]
+
 ## Summary
 
 Firmware Engineer building the RISC-V software ecosystem for automotive and IoT at Bosch's TrusteD-V Innovation Team. 6+ years of embedded systems experience spanning kernel development, RTOS porting, and automotive ECU application software. Expertise in Rust, C, and Python for bare-metal and safety-critical systems. RISC-V Summit 2025 featured contributor.
 
-\\[10px]
+\\[20px]
 
 ## Experience
 
@@ -37,6 +39,7 @@ Firmware Engineer building the RISC-V software ecosystem for automotive and IoT 
 - Ported Hubris OS to RISC-V - kernel primitives, trap/exception handlers, and PMP-based memory isolation for the Hazard3 core on Raspberry Pi Pico 2.
 - Enabled dual-architecture support across ARM [Cortex-M33](https://github.com/Karthik-d-k/exhubris-demo-rp235x) and RISC-V [Hazard3](https://github.com/Karthik-d-k/exhubris-riscv-hazard3/tree/rp235x-hazard3) via custom linker scripts and startup code; worked around RP2350 errata and validated bring-up using OpenOCD/GDB over the Raspberry Pi Debug Probe.
 
+\\[10px]
 
 **TrusteD-V RTOS**
 - Developed proof-of-concept RTOS port for Mindgrove Secure IoT development board with working QEMU emulation support.
@@ -59,14 +62,11 @@ Firmware Engineer building the RISC-V software ecosystem for automotive and IoT 
 **MLLib DecisionTree Inference**
 - Built a lightweight C DecisionTree inference engine for a resource-constrained PowerTrain ECU, using FlatBuffers for model serialization and calibration-tool parameterization.
 
-\\[10px]
-
-**Advanced Exhaust Temperature Management (Onsite — Germany, 3 months)**
-- Developed a CAN-based temperature-sensor component with diagnostics and statistical catalyst monitoring to meet EU7 emission standards.
-
-\\[10px]
+\\[20px]
 
 ## Skills
+
+\\[5px]
 
 **Programming:** Rust, C, Python
 
@@ -82,18 +82,45 @@ Firmware Engineer building the RISC-V software ecosystem for automotive and IoT 
 
 **Development Tools and Frameworks:** WSL, Git, Claude Code, PyTorch, Cargo, Make, Just, ASCET
 
+\newpage
+
+## Open Source Projects
+
+\\[5px]
+
+**Contributions** <a href="https://github.com/pulls?q=is%3Apr+archived%3Afalse+is%3Aclosed+author%3AKarthik-d-k">
+  <span class="iconify" data-icon="pajamas:github"></span>
+</a>
+
+- Active open-source contributor with merged pull requests into oreboot (Rust boot firmware) and the fastai and FluxML deep-learning libraries.
+
 \\[10px]
 
-## Certifications
-**Machine Learning: Stanford University (Andrew Ng)**
-  ~ [Certificate](https://www.coursera.org/account/accomplishments/certificate/9DKFWDW79GAA)
+**robot-hat-rs** <a href="https://github.com/Karthik-d-k/robot-hat-rs">
+  <span class="iconify" data-icon="pajamas:github"></span>
+</a>
+- Developed no_std Rust drivers (I2C, PWM, ADC) and a hardware abstraction layer for motor control, servo actuation, and analog sensor reading on the Robot HAT platform; published on [crates.io](https://crates.io/crates/robot-hat-rs) with 4,000+ downloads.
+- Powers [picars](https://github.com/Karthik-d-k/picars), an autonomous PiCar-X vehicle with Rust-to-Python bindings for performance-critical control.
 
-*Coursera*
-  ~ 2020
+\\[10px]
+
+**ixv** <a href="https://github.com/Karthik-d-k/ixv">
+  <span class="iconify" data-icon="pajamas:github"></span>
+</a>
+- Developed a Rust CLI for verifying Intel HEX files. Published on [crates.io](https://crates.io/crates/ixv) with 4,000+ downloads.
+
+\\[10px]
+
+**Technical Blog** <a href="https://karthik-d-k.github.io/">
+  <span class="iconify" data-icon="pajamas:github"></span>
+</a>
+- Writing on firmware, systems programming, and Rust - a public knowledge repository documenting my work.
 
 \\[10px]
 
 ## Achievements
+
+\\[5px]
 
 - **RISC-V Summit 2025:** TrusteD-V project contributor (featured talk). <a href="https://youtu.be/O73rm9p6fTY?si=o1rWW-0pa3EEiumr">
   <span class="iconify" data-icon="tabler:brand-youtube-filled"></span>
@@ -107,6 +134,8 @@ Firmware Engineer building the RISC-V software ecosystem for automotive and IoT 
 
 ## Education
 
+\\[5px]
+
 **University Vishweshwaraya College of Engineering, Bengaluru**
   ~ **75.2%**
 
@@ -115,57 +144,5 @@ B.E in Electronics and Communication
 
 \\[10px]
 
-**Devaraja URS PU College, Doddaballapur**
-  ~ **94.5%**
-
-PUC
-  ~ 2015
-
-\\[10px]
-
-## Blogging
-
-- Writing on firmware, systems programming, Rust, and motorcycles - a public knowledge repository that documents my work and helps others (and my future self). <a href="https://karthik-d-k.github.io/">
-  <span class="iconify" data-icon="pajamas:github"></span>
-</a>
-
-\\[10px]
-
-## Open Source Projects
-
-**Contributions** <a href="https://github.com/pulls?q=is%3Apr+archived%3Afalse+is%3Aclosed+author%3AKarthik-d-k">
-  <span class="iconify" data-icon="pajamas:github"></span>
-</a>
-
-- Active open-source contributor with merged pull requests into oreboot (Rust boot firmware) and the fastai and FluxML deep-learning libraries.
-
-\\[10px]
-
-**robot-hat-rs** <a href="https://github.com/Karthik-d-k/robot-hat-rs">
-  <span class="iconify" data-icon="pajamas:github"></span>
-</a>
-- Developed no_std Rust drivers (I2C, PWM, ADC) and a hardware abstraction layer for motor control, servo actuation, and analog sensor reading on the Robot HAT platform.
-- Published on [crates.io](https://crates.io/crates/robot-hat-rs), receiving 4,000+ downloads from the community.
-
-\\[10px]
-
-**ixv** <a href="https://github.com/Karthik-d-k/ixv">
-  <span class="iconify" data-icon="pajamas:github"></span>
-</a>
-- Developed a Rust CLI for verifying Intel HEX files. Published on [crates.io](https://crates.io/crates/ixv) with 4,000+ downloads.
-
-\\[10px]
-
-**picars** <a href="https://github.com/Karthik-d-k/picars">
-  <span class="iconify" data-icon="pajamas:github"></span>
-</a>
-- Created an autonomous vehicle system using Raspberry Pi and PiCar-X kit, leveraging Rust and Python.
-- Developed Rust bindings and interfaced with Python to optimize execution speed.
-
-\\[10px]
-
-## Languages
-
-- English, Kannada, Telugu
-
-\\[10px]
+**Certification** — Machine Learning, Stanford University / Andrew Ng (Coursera, 2020)
+~ [Certificate](https://www.coursera.org/account/accomplishments/certificate/9DKFWDW79GAA)
