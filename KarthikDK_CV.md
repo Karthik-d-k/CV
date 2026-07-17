@@ -10,20 +10,20 @@ header:
     link: https://www.linkedin.com/in/karthik-d-k-319853166/
   - text: <span class="iconify" data-icon="charm:person"></span> 0x646b
     link: https://karthik-d-k.github.io/
-  - text: <span class="iconify" data-icon="ic:outline-location-on"></span> 12/431, Doddaballapur, Bengaluru Rural - 561203
-    link: https://maps.app.goo.gl/JkBfG4sNpjDEPEtc6/
+  - text: <span class="iconify" data-icon="ic:outline-location-on"></span> Bengaluru, Karnataka, India
+    link: https://maps.app.goo.gl/idnpQRieGHHeyU1v8
     newLine: true
 ---
 
 ## Summary
 
-Firmware Developer building the RISC-V software ecosystem for automotive and IoT at Bosch's TrusteD-V Innovation Team. 6+ years of embedded systems experience spanning kernel development, RTOS porting, and automotive ECU application software. Expertise in Rust, C, and Python for bare-metal and safety-critical systems. RISC-V Summit 2025 featured contributor.
+Firmware Engineer building the RISC-V software ecosystem for automotive and IoT at Bosch's TrusteD-V Innovation Team. 6+ years of embedded systems experience spanning kernel development, RTOS porting, and automotive ECU application software. Expertise in Rust, C, and Python for bare-metal and safety-critical systems. RISC-V Summit 2025 featured contributor.
 
 \\[10px]
 
 ## Experience
 
-*Firmware Architect*
+*Firmware Engineer*
   ~ *Bosch Global Software Technologies*
   ~ *August 2019 - Present*
 
@@ -34,12 +34,11 @@ Firmware Developer building the RISC-V software ecosystem for automotive and IoT
 **Hubris OS Port to RISC-V** <a href="https://github.com/Karthik-d-k/exhubris-riscv-hazard3">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Ported Hubris OS to RISC-V, implementing kernel primitives, trap/exception handlers, and PMP-based memory isolation for Hazard3 core on Raspberry Pi Pico 2.
-- Configured linker scripts and startup code for dual-architecture support across ARM [Cortex-M33](https://github.com/Karthik-d-k/exhubris-demo-rp235x) and RISC-V [Hazard3](https://github.com/Karthik-d-k/exhubris-riscv-hazard3/tree/rp235x-hazard3) cores.
-- Overcame RP2350 errata and PMP configuration challenges; validated bring-up using OpenOCD and GDB over SWD with Raspberry Pi Debug Probe.
+- Ported Hubris OS to RISC-V - kernel primitives, trap/exception handlers, and PMP-based memory isolation for the Hazard3 core on Raspberry Pi Pico 2.
+- Enabled dual-architecture support across ARM [Cortex-M33](https://github.com/Karthik-d-k/exhubris-demo-rp235x) and RISC-V [Hazard3](https://github.com/Karthik-d-k/exhubris-riscv-hazard3/tree/rp235x-hazard3) via custom linker scripts and startup code; worked around RP2350 errata and validated bring-up using OpenOCD/GDB over the Raspberry Pi Debug Probe.
 
 
-**TrusteD-V RTOS (In-house)**
+**TrusteD-V RTOS**
 - Developed proof-of-concept RTOS port for Mindgrove Secure IoT development board with working QEMU emulation support.
 - Debugged kernel bring-up issues using Segger J-Link with OpenOCD and GDB.
 
@@ -47,20 +46,23 @@ Firmware Developer building the RISC-V software ecosystem for automotive and IoT
 
 **Rust SDK for CDAC VEGA Processor**
 - Created the first Rust bare-metal ecosystem for the CDAC VEGA ARIES v3 board (THEJAS32 RISC-V SoC).
-- Built a Python-based SVD generator by reverse-engineering register maps and drivers from the VEGA C SDK.
-- Produced a reproducible PAC generation pipeline with type-safe access for 15+ peripherals (UART, SPI, I2C, Timer, GPIO, ADC, PWM, PLIC) and validated with bare-metal working examples.
+- Reverse-engineered register maps from the VEGA C SDK into a Python-based SVD generator, producing type-safe PACs for 15+ peripherals (UART, SPI, I2C, Timer, GPIO, ADC, PWM, PLIC) validated with bare-metal examples.
+
+\\[10px]
+
+**SiFive E34 Board Bring-up (Trina-Pi)**
+- Performed complete bare-metal bring-up of the UpBeatTech Trina-Pi board (SiFive E34 RISC-V core) entirely in Rust.
+- Implemented a UART peripheral driver from scratch for serial console and debug I/O.
 
 \\[10px]
 
 **MLLib DecisionTree Inference**
-- Developed a lightweight DecisionTree inference engine in C for deployment on a PowerTrain ECU with constrained resources.
-- Utilized FlatBuffers for model serialization, enabling parameterization through calibration tooling.
+- Built a lightweight C DecisionTree inference engine for a resource-constrained PowerTrain ECU, using FlatBuffers for model serialization and calibration-tool parameterization.
 
 \\[10px]
 
 **Advanced Exhaust Temperature Management (Onsite — Germany, 3 months)**
-- Developed a comprehensive component for reading temperature sensors via CAN and implementing sensor diagnostics to comply with EU7 standards.
-- Implemented statistical analysis to monitor temperature distribution across catalyst, improving emission control efficiency.
+- Developed a CAN-based temperature-sensor component with diagnostics and statistical catalyst monitoring to meet EU7 emission standards.
 
 \\[10px]
 
@@ -70,20 +72,20 @@ Firmware Developer building the RISC-V software ecosystem for automotive and IoT
 
 \\[10px]
 
-**RTOS/Bare-Metal:** Hubris OS, FreeRTOS, Zephyr, bare-metal programming
+**RTOS/Kernel:** Hubris OS, xv6, bare-metal programming
 
 \\[10px]
 
-**Debug Tools:** Segger J-Link, RP Debug Probe, OpenOCD, GDB, minicom
+**Debug Tools:** OpenOCD, GDB, tio, RP Debug Probe, Segger J-Link
 
 \\[10px]
 
-**Development Tools and Frameworks:** WSL, Git, PyTorch, Cargo, Make, ASCET
+**Development Tools and Frameworks:** WSL, Git, Claude Code, PyTorch, Cargo, Make, Just, ASCET
 
 \\[10px]
 
 ## Certifications
-**Machine Learning**
+**Machine Learning: Stanford University (Andrew Ng)**
   ~ [Certificate](https://www.coursera.org/account/accomplishments/certificate/9DKFWDW79GAA)
 
 *Coursera*
@@ -123,7 +125,7 @@ PUC
 
 ## Blogging
 
-- Documenting my knowledge with programming, software engineering and motorcycles to create a knowledge repository for future reference, aiding both emerging LLMs and my personal growth. <a href="https://karthik-d-k.github.io/">
+- Writing on firmware, systems programming, Rust, and motorcycles - a public knowledge repository that documents my work and helps others (and my future self). <a href="https://karthik-d-k.github.io/">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
 
@@ -135,15 +137,14 @@ PUC
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
 
-- Active open-source contributor with notable pull requests merged into fastai and FluxML Deep Learning libraries.
+- Active open-source contributor with merged pull requests into oreboot (Rust boot firmware) and the fastai and FluxML deep-learning libraries.
 
 \\[10px]
 
 **robot-hat-rs** <a href="https://github.com/Karthik-d-k/robot-hat-rs">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Developed no_std Rust drivers for I2C, PWM, and ADC peripherals targeting the Robot HAT robotics platform.
-- Implemented hardware abstraction layer for motor control, servo actuation, and analog sensor reading.
+- Developed no_std Rust drivers (I2C, PWM, ADC) and a hardware abstraction layer for motor control, servo actuation, and analog sensor reading on the Robot HAT platform.
 - Published on [crates.io](https://crates.io/crates/robot-hat-rs), receiving 4,000+ downloads from the community.
 
 \\[10px]
@@ -160,13 +161,6 @@ PUC
 </a>
 - Created an autonomous vehicle system using Raspberry Pi and PiCar-X kit, leveraging Rust and Python.
 - Developed Rust bindings and interfaced with Python to optimize execution speed.
-
-\\[10px]
-
-**GeekyMicky** <a href="https://github.com/Karthik-d-k/GeekyMicky">
-  <span class="iconify" data-icon="pajamas:github"></span>
-</a>
-- Tackled the Micro-Mouse Maze Challenge using Arduino Uno and C programming.
 
 \\[10px]
 
