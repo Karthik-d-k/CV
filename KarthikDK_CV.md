@@ -72,7 +72,7 @@ Firmware Engineer building the RISC-V software ecosystem for automotive and IoT 
 
 \\[10px]
 
-**RTOS/Kernel:** Hubris OS, xv6, bare-metal programming
+**RTOS/Kernel:** Linux, Hubris, xv6, bare-metal programming
 
 \\[10px]
 
@@ -80,7 +80,7 @@ Firmware Engineer building the RISC-V software ecosystem for automotive and IoT 
 
 \\[10px]
 
-**Development Tools and Frameworks:** WSL, Git, Claude Code, PyTorch, Cargo, Make, Just, ASCET
+**Development Tools and Frameworks:** WSL, Git, Claude Code, Buildroot, BusyBox, Cargo, Make
 
 \newpage
 
