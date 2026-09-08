@@ -99,7 +99,7 @@ Firmware Engineer building the RISC-V software ecosystem for automotive and IoT 
 **robot-hat-rs** <a href="https://github.com/Karthik-d-k/robot-hat-rs">
   <span class="iconify" data-icon="pajamas:github"></span>
 </a>
-- Developed no_std Rust drivers (I2C, PWM, ADC) and a hardware abstraction layer for motor control, servo actuation, and analog sensor reading on the Robot HAT platform; published on [crates.io](https://crates.io/crates/robot-hat-rs) with 4,000+ downloads.
+- Developed Rust drivers (I2C, PWM, ADC) and a hardware abstraction layer for motor control, servo actuation, and analog sensor reading on the Robot HAT platform; published on [crates.io](https://crates.io/crates/robot-hat-rs) with 4,000+ downloads.
 - Powers [picars](https://github.com/Karthik-d-k/picars), an autonomous PiCar-X vehicle with Rust-to-Python bindings for performance-critical control.
 
 \\[10px]
